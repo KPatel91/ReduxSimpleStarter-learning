@@ -15,7 +15,8 @@ const VideoDetail = ({video}) => {
             </div>
             <div className="details">
                 <div>{video.snippet.title}</div>
-                <div>{video.snippet.description}</div>
+                <br/>
+                <div className="description-text">{video.snippet.description}</div>
             </div>
         </div>
 
